@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# API keys
+secrets.py
+config.py
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Gradio / temporary files
+gradio_cached_examples/
+temp/
+tmp/
+
+# Uploaded images
+uploads/
+uploaded_images/
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
